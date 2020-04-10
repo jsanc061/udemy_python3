@@ -58,3 +58,9 @@ for user_name,user_hobby in users.items():
 person1={'first_name':'John'}
 person2={'last_name':'Doe'}
 person=[person1,person2]
+
+for p in person:
+    print(p)
+    
+Cities={'Austin':{'country':'US'},'Dallas':{'country':'US'},'San Antonio':{'country':'US'}}
+print(Cities)
